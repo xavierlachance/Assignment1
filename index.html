@@ -59,7 +59,8 @@
             text-align: center;
         }
 
-        .shop-now button a{
+        .shop-now button{
+            display: block;
             width: 100%;
             text-decoration: none;
             margin-bottom: 10px;
@@ -74,17 +75,17 @@
             border: 3px ridge #ccc;
         }
 
-        .shop-now button:hover a{
+        .shop-now button:hover{
             background-color: #66ff52;
             color: black;
             font-size: 14px;
         }
 
-        .shop-now button a span{
+        .shop-now button span{
             position: relative;
         }
 
-        .shop-now button a span:after {
+        .shop-now button span:after {
             content: '\00bb';
             position: absolute;
             opacity: 0;
@@ -92,11 +93,11 @@
             right: -12px;
         }
 
-        .shop-now button:hover a span{
+        .shop-now button:hover span{
             padding-right: 12px;
         }
 
-        .shop-now button:hover a span:after{
+        .shop-now button:hover span:after{
             right: 0;
             opacity: 1;
         }
@@ -134,8 +135,9 @@
         </div>
 
         <div class="shop-now">
-            <br><button><a href="products.html"><span>Shop Now</span></a></button><br>
+            <br><button class="button" onclick="location.href='products.html';"><span>Shop Now</span></button>
         </div>
+        
 
         <div class="customer-reviews">
             <img src="https://m.media-amazon.com/images/M/MV5BOWU1ODBiNGUtMzVjNi00MzdhLTk0OTktOWRiOTIxMWNhOGI2XkEyXkFqcGdeQXVyMTU2OTM5NDQw._V1_.jpg"
