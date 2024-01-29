@@ -1,0 +1,10 @@
+Our image sources are commented in our html files, all other images are our own.
+
+For the use of coding the original websites (named x_old.html), specifically index and login,
+no additional tutorials were used, we simply went off of the lecture slides.
+
+For the new ones (x.html), we used sources like chatgpt and various online tutorials which will be listed below.
+
+ChatGPT - Helped us understand how to format each style/class for individual html files (we left styles.css empty as we will be working with that next week)
+W3Schools helped with formatting buttons and styling them to our liking (https://www.w3schools.com/css/css3_buttons.asp)
+Developer Mozilla for html commands that we didn't learn about yet (https://developer.mozilla.org/en-US/docs/Web/HTML)
