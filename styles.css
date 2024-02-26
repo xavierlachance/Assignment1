@@ -1,0 +1,219 @@
+/*taskbar styling*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #0ff;
+    /* Change the text color on hover */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+
+/*start of products syling*/
+.product {
+    background-color: white;
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 4mm ridge #7a7a7a;
+    text-align: center;
+}
+
+.product button {
+    line-height: 20px;
+    /* Set a fixed line height for the button */
+    font-size: 12px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #04AA6D;
+    color: white;
+    border: 3px ridge #ccc;
+}
+
+.product button:hover {
+    background-color: #66ff52;
+    color: black;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+/* start of index styling*/
+.about-us {
+    width: 100%;
+    border: 4mm ridge #7a7a7a;
+    text-align: center;
+    background-color: #adadad;
+}
+
+.customer-reviews {
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 4mm ridge #7a7a7a;
+    text-align: center;
+    background-color: #adadad;
+}
+
+.shop-now {
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.shop-now button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+    line-height: 20px;
+    /* Set a fixed line height for the button */
+    font-size: 12px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #04AA6D;
+    color: white;
+    border: 3px ridge #ccc;
+}
+
+.shop-now button:hover {
+    background-color: #66ff52;
+    color: black;
+    font-size: 14px;
+}
+
+.shop-now button span {
+    position: relative;
+}
+
+.shop-now button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -3px;
+    right: -12px;
+}
+
+.shop-now button:hover span {
+    padding-right: 12px;
+}
+
+.shop-now button:hover span:after {
+    right: 0;
+    opacity: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+/*start of login styles*/
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #066943;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*TODO delete footer for some pages*/
+/* start of the contact styling*/
+.contact-us {
+    width: 100%;
+    border: 4mm ridge #7a7a7a;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #adadad;
+}
+
+.contact-info {
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 4mm ridge #7a7a7a;
+    text-align: center;
+    background-color: #adadad;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+}
